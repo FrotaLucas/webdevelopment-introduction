@@ -1,163 +1,154 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
-:root{
+:root {
+  --cor0: #c5ebd6;
+  --cor1: #83e1ad;
+  --cor2: #3ddc84;
+  --cor3: #2fa866;
+  --cor4: #1a5c37;
+  --cor5: #063d1e;
 
-    --cor0: #c5ebd6;
-    --cor1: #83e1ad;
-    --cor2: #3ddc84;
-    --cor3: #2fa866;
-    --cor4: #1a5c37;
-    --cor5: #063d1e;
-
-    --font-highlight-title: "Bebas Neue", sans-serif;
-    --font-highlight-text: "Android", "cursive";
-    --font-standart: Arial, Verdana, Helvetica, sans-serif;
-    --font-test: "Dancing Script", cursive;
+  --font-highlight-title: 'Bebas Neue', sans-serif;
+  --font-highlight-text: 'Android', 'cursive';
+  --font-standart: Arial, Verdana, Helvetica, sans-serif;
+  --font-test: 'Dancing Script', cursive;
 }
 
 header {
-    background-image: linear-gradient(var(--cor0), var(--cor5));
-    min-height: 250px;
-    text-align: center;
-    padding-top: 40px;
+  background-image: linear-gradient(var(--cor0), var(--cor5));
+  min-height: 250px;
+  text-align: center;
+  padding-top: 40px;
 }
 
 header > h1 {
-
-    color: white;
-    font-size: 40px;
-    font-family: var(--font-highlight-title);
-    padding-bottom: 30px;
+  color: white;
+  font-size: 40px;
+  font-family: var(--font-highlight-title);
+  margin-bottom: 30px;
 }
 
 header > p {
-    color: white;
-    font-size: 20px;
-    font-family: var(--fonte-standart);
+  color: white;
+  font-size: 20px;
+  font-family: var(--fonte-standart);
 }
-
 
 nav {
-    background-color: var(--cor5);
-    min-height: 30px;
+  background-color: var(--cor5);
+  min-height: 30px;
 }
 
-
 nav > a {
-    color: var(--cor1);
-    padding: 10px;
-    font-family: var(--font-highlight-text);
-    font-weight: bold;
-    margin-left: 40px;
+  color: var(--cor1);
+  padding: 10px;
+  font-family: var(--font-highlight-text);
+  font-weight: bold;
+  margin-left: 40px;
 }
 
 main {
-    /* margin-left: 50px;
+  /* margin-left: 50px;
     margin-right: 50px; */
-    background-color: var(--cor0);
-
+  background-color: var(--cor0);
 }
 
 article {
-    max-width: 80%;
-    background-color: white;
-    padding-top:50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: auto;
+  max-width: 80%;
+  background-color: white;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
 }
 
-
 article > h1 {
-    color: var(--cor5);
-    font-family: var(--font-highlight-text);
-    font-size: 30px;
-    margin-left: 15px;
-    margin-bottom: 10px;
+  color: var(--cor5);
+  font-family: var(--font-highlight-text);
+  font-size: 30px;
+  margin-left: 15px;
+  margin-bottom: 10px;
 }
 
 article > p {
-    /* font-family: var(--font-standart); */
-    margin-bottom: 10px;
-    line-height: 30px;
-    text-align: justify;
+  /* font-family: var(--font-standart); */
+  margin-bottom: 10px;
+  line-height: 30px;
+  text-align: justify;
 }
 
 article > h2 {
-    color: var(--cor5);
-    font-family: var(--font-highlight-text);
-    background-image: linear-gradient(to right, var(--cor0), transparent);
-    margin-bottom: 10px;
+  color: var(--cor5);
+  font-family: var(--font-highlight-text);
+  background-image: linear-gradient(to right, var(--cor0), transparent);
+  margin-bottom: 10px;
 }
 
 img {
-    max-width: 100%;
-    margin-bottom: 50px;
+  max-width: 100%;
+  margin-bottom: 50px;
 }
 
 .image-rosenmontag {
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 p > a {
-    font-size: 20px;
-    color: var(--cor5);
+  font-size: 20px;
+  color: var(--cor5);
 }
 
 ul {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
-li{
-    margin-bottom: 10px;
+li {
+  margin-bottom: 10px;
 }
 
 .costume {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .video {
-    background-color: var(--cor5);
-    padding: 20px;
-    margin-bottom: 20px;
+  background-color: var(--cor5);
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 iframe {
-    display: block;
-    margin: auto;
-    width: 60%;
-    height: 520px;
+  display: block;
+  margin: auto;
+  width: 60%;
+  height: 520px;
 }
 
 footer {
-    color: white;
-    font-size: 20px;
-    background-color: var(--cor5);
-    text-align: center;
+  color: white;
+  font-size: 20px;
+  background-color: var(--cor5);
+  text-align: center;
 }
-
 
 .info-table {
-    border-radius: 15px;
-    background-color: var(--cor1);
-    padding-bottom: 10px;
+  border-radius: 15px;
+  background-color: var(--cor1);
+  padding-bottom: 10px;
 }
 
-
 h3 {
-    color: white;
-    background-color: var(--cor4);
-    border-radius: 15px 15px 0 0;
-    padding: 10px;
-    margin-bottom: 15px;
-
+  color: white;
+  background-color: var(--cor4);
+  border-radius: 15px 15px 0 0;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 
 button {
-    background-color: var(--cor2);
+  background-color: var(--cor2);
 }
