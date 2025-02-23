@@ -152,3 +152,11 @@ h3 {
 button {
   background-color: var(--cor2);
 }
+
+@media (max-width: 650px) {
+  .costume {
+    margin: auto;
+    max-width: 80%;
+    flex-direction: column;
+  }
+}
