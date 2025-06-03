@@ -3,12 +3,31 @@
 }
 
 :root {
-  --color0: #c5ebd6;
+  /* --color0: #c5ebd6;
   --color1: #83e1ad;
   --color2: #3ddc84;
   --color3: #2fa866;
   --color4: #1a5c37;
-  --color5 : #063d1e;
+  --color5 : #063d1e; */
+
+  --color0: #e6e9f0;   /* Fundo claro neutro */
+  --color1: #2e3a59;   /* Azul escuro PSG */
+  --color2: #c8102e;   /* Vermelho PSG */
+  --color3: #1d1d1b;   /* Preto Inter */
+  --color4: #0074b7;   /* Azul Inter */
+  --color5: #ffffff;
+  --color6: #b3d4fc; /* Azul claro suave e moderno */
+  
+  --color7: #1e3a8a;
+  --color8: #ffffff;
+  --color9: #374151;
+  --color10: #f3f4f6;
+  --color11: #e5e7eb;
+  --color12: #1f2837;
+  --color13: #1e90ff;
+  --color14: #87cefa;
+
+
 
   --font-highlight-title: 'Bebas Neue', sans-serif;
   --font-highlight-text: 'Android', 'cursive';
@@ -17,7 +36,7 @@
 }
 
 header {
-  background-image: linear-gradient(var(--color0), var(--color5));
+  background-image: linear-gradient(var(--color4), var(--color6));
   min-height: 250px;
   text-align: center;
   padding-top: 40px;
@@ -37,12 +56,13 @@ header > p {
 }
 
 nav {
-  background-color: var(--color5);
-  min-height: 30px;
+  background-color: var(--color7);
+  /* background-image: linear-gradient(var(--color4), var(--color6)); */
+  min-height: 40px;
 }
 
 nav > a {
-  color: var(--color1);
+  color: white;
   padding: 10px;
   font-family: var(--font-highlight-text);
   font-weight: bold;
@@ -83,7 +103,7 @@ article > p {
 article > h2 {
   color: var(--color5);
   font-family: var(--font-highlight-text);
-  background-image: linear-gradient(to right, var(--color0), transparent);
+  background-image: linear-gradient(to right, var(--color1), transparent);
   margin-bottom: 10px;
 }
 
@@ -91,6 +111,11 @@ img {
   max-width: 100%;
   margin-bottom: 50px;
 }
+
+/* .t-shirt {
+  width: 100px;     
+  height: 100px;    
+} */
 
 .image-rosenmontag {
   display: block;
@@ -100,7 +125,7 @@ img {
 
 p > a {
   font-size: 20px;
-  color: var(--color5);
+  color: var(--color1);
 }
 
 ul {
@@ -138,7 +163,7 @@ footer {
 
 .info-table {
   border-radius: 15px;
-  background-color: var(--color1);
+  background-color: var(--color0);
   padding-bottom: 10px;
 }
 
@@ -151,7 +176,7 @@ h3 {
 }
 
 button {
-  background-color: var(--color2);
+  background-color: var(--color0);
 }
 
 @media (max-width: 650px) {
