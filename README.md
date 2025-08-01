@@ -22,7 +22,7 @@ Check the Application you will deploy
 
 To reinforce your understanding, we have prepared a questionnaire that helps you review the key concepts covered in the course:
 
-### Questionnaire
+### Let's review
 
 1. What does HTML mean?
 
