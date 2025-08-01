@@ -16,7 +16,7 @@ Throughout this course, participants will gain both **theoretical knowledge** an
 By the end of the course, students will have created and published their own website using only HTML, CSS, and GitHub.
 
 Check the Application you will deploy
-[Application](https://frotalucas.github.io/carnaval-website/)
+[Application](https://frotalucas.github.io/webdevelopment-introduction/)
 
 ## ✅ Knowledge Check
 
