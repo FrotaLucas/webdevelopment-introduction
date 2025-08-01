@@ -11,7 +11,7 @@ Throughout this course, participants will gain both **theoretical knowledge** an
 - Building static websites from scratch  
 - Introduction to **Git** and **version control**  
 - Working with **branches** and managing code with GitHub  
-- **Deploying web applications** directly to GitHub [Pages](https://pages.github.com/)  
+- **Deploying web applications** directly to [GitHub Pages](https://pages.github.com/)  
 
 By the end of the course, students will have created and published their own website using only HTML, CSS, and GitHub.
 
